@@ -39,6 +39,8 @@ export function LoginForm({ className, ...props }: React.ComponentProps<'div'>):
     } catch (error) {
       console.error('IPC error:', error)
       alert('Something went wrong when adding the user.')
+    } finally {
+      setLoading(false)
     }
   }
 

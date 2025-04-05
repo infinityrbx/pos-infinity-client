@@ -5,7 +5,7 @@ import {
   copyImageFileToTemp,
   moveTempFileToImages,
   writePngUriToFile
-} from './fs.js'
+} from './utils/fs.js'
 
 /** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder#description */
 // function modulo(n: number, d: number): number {

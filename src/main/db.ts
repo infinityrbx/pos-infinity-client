@@ -3,7 +3,7 @@ import { app } from 'electron'
 import Database from 'better-sqlite3'
 import { drizzle } from 'drizzle-orm/better-sqlite3'
 import { createDb } from './db/schema.js'
-import { isPathExisting } from './fs.js'
+import { isPathExisting } from './utils/fs.js'
 
 const DB_FILE_PATH = path.join(app.getPath('userData'), 'database.sqlite')
 

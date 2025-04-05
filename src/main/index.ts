@@ -1,4 +1,4 @@
-import './init.ts'
+import './utils/init.js'
 
 import { app, shell, BrowserWindow, ipcMain } from 'electron'
 import { join } from 'path'
